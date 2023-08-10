@@ -72,6 +72,7 @@ struct ContentView: View {
                 }
                 .navigationDestination(for: Car.self) { car in
                     Text("New \(car.description)")
+                    // Non applicable car il y a un path
                 }
                 Button {
                     showFullStack.toggle()
